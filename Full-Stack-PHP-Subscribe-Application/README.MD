@@ -1,0 +1,62 @@
+# Full Stack PHP Subscription Application
+
+Modern Subscription Capture Form with Auto Send Email Confirmation
+
+<img src="img/PHP-Subscribe-App.jpg" width="auto" title="PHP Subscribe APP" />
+
+> Built with HTML, CSS, and PHP.
+
+### Unique Project Points
+
+> Sends Email to the Subscriber after Successful Capture
+
+> You must download this project to test it on localhost and run index.php file.
+
+### Task List
+
+- [x] Creating Modal Container For The PHP Form (HTML)
+- [x] Styling the Modal (CSS)
+- [x] Creating PHP Functions (PHP)
+- [ ] Create Database to Store the Email Addresses
+- [ ] Create PHP function to POST the email address' to the database.
+
+<!-- <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/mogrady-git/HTML-Responsive-Email-Templates"> -->
+<!-- <a href="https://mogrady-git.github.io/HTML-Responsive-Email-Templates/index.html"><img alt="GitHub last commit" src="https://img.shields.io/badge/Version%201.0-Launch%20Website-green"></a> -->
+
+## Installation Instructions for Testing on Localhost with Gmail
+
+#### XAMPP - Go to the XAMPP installation directory and open the XAMPP folder and follow the below steps:
+
+1. Go to the (C:\xampp\php) and open the php.ini or php file then find the mail function by scrolling down or simply press ctrl+f to search directly then find the following lines and pass these values:
+
+#### PHP.INI FILE:
+
+```
+[mail function]
+For Win32 only.
+http://php.net/smtp
+SMTP=smtp.gmail.com
+http://php.net/smtp-port
+smtp_port=587
+sendmail_from = your_email_address_here
+sendmail_path = "\"C:\xampp\sendmail\sendmail.exe\" -t"
+```
+
+2. Now, go the (C:\xampp\sendmail) and open the sendmail.ini then find sendmail by scrolling down or press ctrl+f to search directly then find the following lines and pass these values:
+
+#### SENDMAIL.INI FILE:
+
+```
+smtp_server=smtp.gmail.com
+smtp_port=587
+error_logfile=error.log
+debug_logfile=debug.log
+auth_username=your_email_address_here
+auth_password=your_password_here
+```
+
+3. Save all files and restart Apache Server from the XAMPP Panel and you're ready to go!
+
+## Installation Instructions on Web Server
+
+- [ ] To be completed..
