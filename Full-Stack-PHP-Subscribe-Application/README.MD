@@ -12,13 +12,15 @@ Modern Subscription Capture Form with Auto Send Email Confirmation
 
 > You must download this project to test it on localhost and run index.php file.
 
+> The production version is located within the production folder differs in that as well as sending an email to the client, this application also creates a database and posts the subscriber email to the database.
+
 ### Task List
 
 - [x] Creating Modal Container For The PHP Form (HTML)
 - [x] Styling the Modal (CSS)
 - [x] Creating PHP Functions (PHP)
-- [ ] Create Database to Store the Email Addresses
-- [ ] Create PHP function to POST the email address' to the database.
+- [x] Create Database to Store the Email Addresses
+- [x] Create PHP function to POST the email address' to the database.
 
 <!-- <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/mogrady-git/HTML-Responsive-Email-Templates"> -->
 <!-- <a href="https://mogrady-git.github.io/HTML-Responsive-Email-Templates/index.html"><img alt="GitHub last commit" src="https://img.shields.io/badge/Version%201.0-Launch%20Website-green"></a> -->
@@ -57,6 +59,7 @@ auth_password=your_password_here
 
 3. Save all files and restart Apache Server from the XAMPP Panel and you're ready to go!
 
-## Installation Instructions on Web Server
+## Installation Instructions on Production Web Server
 
-- [ ] To be completed..
+- [ ] To be included in private repo
+- [ ] Database to be included in private repo
