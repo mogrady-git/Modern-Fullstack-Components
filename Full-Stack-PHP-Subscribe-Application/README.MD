@@ -59,6 +59,12 @@ auth_password=your_password_here
 
 3. Save all files and restart Apache Server from the XAMPP Panel and you're ready to go!
 
+4. Open the index.php file. Fill in your email address and click submit. The email is now sent to your address with the following text:
+   > Thanks for Subscribing to my Channel. You'll always recieve the latest updates from us. We won't share or sell your information to anyone.
+5. A link on the index.php page will take you to the production version which in addition to the above, creates a database, table and posts the email
+   to the database. To create the database and table, refresh the page twice and observe the notifications in the top panel. Now fill in email and it will
+   be posted to the database as well as sent an confirmation email.
+
 ## Installation Instructions on Production Web Server
 
 - [ ] To be included in private repo
