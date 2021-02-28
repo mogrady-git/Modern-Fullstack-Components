@@ -5,5 +5,7 @@ Explore the Projects using the Website Portal below and use back to return to th
 
 > HTML, CSS, JavaScript, PHP
 
+> Unlinked projects on the portal are unsuitable for hosting on this platform. Download and run locally instead. See project documentation.
+
 <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/mogrady-git/Modern-Fullstack-Components">
 <a href="https://mogrady-git.github.io/Modern-Fullstack-Components/index.html"><img alt="GitHub last commit" src="https://img.shields.io/badge/Version%201.0-Launch%20Website-green"></a>
