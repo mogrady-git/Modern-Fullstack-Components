@@ -67,7 +67,6 @@ auth_password=your_password_here
    to the database. To create the database and table, refresh the page twice and observe the notifications in the top panel. Now fill in email and it will
    be posted to the database as well as sent an confirmation email.
 
-## Installation Instructions on Production Web Server
+## Production Edition
 
-- [ ] To be included in private repo
-- [ ] Database to be included in private repo
+- [x] Included in production folder
