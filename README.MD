@@ -3,7 +3,7 @@
 This series is a collection of modern fullstack components i often use within in client projects.
 Explore the Projects using the Website Portal below and use back to return to the home screen.
 
-> HTML, CSS, JavaScript, PHP.
+> HTML, CSS, jQuery, JavaScript, PHP
 
 ### Projects requiring server side functionality are unsuitable for running on this platform for live previews.
 
